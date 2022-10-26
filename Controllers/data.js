@@ -1,4 +1,4 @@
-const date = (req,res) => {
+const data = (req,res) => {
     res.send(
         [
             {
