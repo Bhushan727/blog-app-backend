@@ -5,7 +5,7 @@ const dataRouter = require('./Routes/data');
 
 const cors = require('cors')
 
-app.use(cors);
+app.use(cors());
 
 app.get('/home',(req,res)=>{
     res.send('hello');
