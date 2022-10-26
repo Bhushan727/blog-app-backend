@@ -7,8 +7,13 @@ const cors = require('cors')
 
 app.use(cors);
 
+app.get('/home',(req,res)=>{
+    res.send('hello');
+    console.log('home');
+})
+
 app.use('/api',dataRouter)
 
-app.listen(process.env.port || 8080, () => {
+app.listen(process.env.PORT||8080, () => {
     console.log('server started');
 });
