@@ -1,10 +1,9 @@
 const data = (req,res) => {
     res.send(
-        [
-            {
+        [{
             id: 0,
             category : "sports",
-            title : "Sept 30 deadline for Demat account holders to enable 2-factor authentication",
+            title : "Sept 20 deadline for Demat account holders to enable 2-factor authentication",
             image : "https://www.fisdom.com/wp-content/uploads/2022/03/shutterstock_1835616718-1.webp",
             content : "According to a notification issued by the National Stock Exchange (NSE) on June 14, the two-factor authentication can be done using biometric authentication along with the knowledge/possession factor.Biometric authentication uses fingerprint scanning, face recognition or voice recognition.The knowledge factor for the two-factor authentication is done using details which are only known by the user such as password, and PIN, the NSE said in its notification.The possession factor, on the other hand, is done with details that only the user has, for example an OTP, security token, authenticator apps on smartphones etc. In the case of OTP, the same should be sent to clients through both email and SMS on their registered email ID and Mobile number. “In cases where biometric authentication is not possible, Members shall use both the aforementioned factors (Knowledge factor and Possession factor), in addition to the user ID, for 2-factor authentication (2FA). It is to be noted that the above-mentioned authentication shall be implemented on every login session by the client to IBT and STWT,” the NSE further said in its June 14 notification.",
             date : "02/08/2022",
